@@ -1,1 +1,445 @@
-Ing Marco Bianchi
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marco Bianchi - Software & Embedded Developer</title>
+  <meta name="description" content="CV of Marco Bianchi: developer for advanced hardware and software solutions.">
+  <link rel="stylesheet" href="cv.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav class="nav no-print">
+    <div class="nav-inner">
+      <a class="brand" href="#top">Marco Bianchi</a>
+      <ul class="nav-links">
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#internships">Internships</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#other-skills">Other Skills</a></li>
+        <li><a href="#licence">Licence</a></li>
+      </ul>
+      <button type="button" class="btn-pdf" onclick="window.print()">Download PDF</button>
+    </div>
+  </nav>
+
+  <div id="top" class="container">
+    <header class="hero">
+      <div class="photo-container" onclick="togglePhotoOverlay(this)">
+        <img class="photo" src="images/photo.png" alt="Portrait of Marco Bianchi" width="160" height="160">
+        <div class="photo-overlay"><img class="photo-enlarged" src="images/photo.png" alt="Portrait of Marco Bianchi"></div>
+      </div>
+
+      <div class="name">
+        <h1>Marco Bianchi</h1>
+        <p class="tagline">Software Developer · Embedded Systems Expert · Electronics Engineer</p>
+
+        <ul class="contact-list">
+          <li><span class="label">Address:</span> <a href="https://maps.google.com/?q=Via+Medaglie+d%27oro+della+resistenza+3,+42122+RE,+Italy" target="_blank">Via del Bosco 8/4, 42123 RE, Italy</a></li>
+          <li><span class="label">Phone:</span> <a href="tel:+393402776435">+39 340 2776435</a></li>
+          <li><span class="label">Email:</span> <a href="mailto:menabrea10000@gmail.com">menabrea10000@gmail.com</a></li>
+          <li><span class="label">Work Email:</span> <a href="mailto:marco.bianchi92@ingpec.eu">marco.bianchi92@ingpec.eu</a></li>
+        </ul>
+
+        <p class="objective">
+          <strong>Professional Objective:</strong> Seeking opportunities to develop advanced Hardware and Software solutions, 
+          leveraging expertise in embedded systems, electronics, and full-stack development with a focus on
+          innovation and technical excellence.
+        </p>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="experience" class="section" aria-labelledby="experience-title">
+        <div class="section-head">
+          <h2 id="experience-title">Work Experience</h2>
+          <div class="toolbar no-print">
+            <button type="button" data-toggle-all="#experience .details">Expand all</button>
+            <button type="button" data-collapse-all="#experience .details">Collapse all</button>
+          </div>
+        </div>
+
+        <article class="card experience">
+          <div class="job-head">
+            <div class="role">
+              <h3>Senior Software Developer</h3>
+              <p class="company">MISSION EC GmbH · Munich, Germany</p>
+            </div>
+            <span class="date" aria-label="December 2020 to present">12/2020 – Present</span>
+          </div>
+
+          <p class="summary">
+            Leading Continuous Monitoring solutions for Audi and Volkswagen Group, developing robust backend services 
+            and automation frameworks.
+          </p>
+
+          <div class="logos">
+            <img src="images/logos/audi.svg" alt="Audi" title="Audi">
+            <img src="images/logos/volkswagen.svg" alt="Volkswagen" title="Volkswagen">
+          </div>
+
+          <details class="details">
+            <summary>View responsibilities & achievements</summary>
+            <ul class="two-col">
+              <li><strong>Backend Services:</strong> Monitor HTML/MQTT backend services ensuring 99.9% uptime for critical systems</li>
+              <li><strong>Automation Framework:</strong> Maintain custom monitoring framework, automating service checks and report generation</li>
+              <li><strong>Test Data Preparation:</strong> Create prepared test data for automation testing and vehicle simulation</li>
+              <li><strong>Vehicle Testing:</strong> Implement test automation and simulation for new/old car types</li>
+              <li><strong>Integration:</strong> Communicate with testrack systems, integrate with custom framework</li>
+              <li><strong>Development:</strong> Build Registration, Pairing, and User Login monitoring for Audi cars</li>
+              <li><strong>Client Communication:</strong> Direct interface with stakeholders to deliver requirements</li>
+            </ul>
+          </details>
+        </article>
+
+        <article class="card experience">
+          <div class="job-head">
+            <div class="role">
+              <h3>Embedded Software Developer</h3>
+              <p class="company">Aquatronica SRL · Reggio Emilia, Italy</p>
+            </div>
+            <span class="date" aria-label="November 2020 to December 2020">11/2020 – 12/2020</span>
+          </div>
+
+          <p class="summary">
+            Full-cycle development: hardware design, PCB layout, and firmware implementation for custom solutions.
+          </p>
+
+          <div class="logos">
+            <img src="images/logos/aquatronica.png" alt="Aquatronica" title="Aquatronica">
+          </div>
+        </article>
+
+        <article class="card experience">
+          <div class="job-head">
+            <div class="role">
+              <h3>V&amp;V Consultant Engineer</h3>
+              <p class="company">Kineton · Woking, United Kingdom</p>
+            </div>
+            <span class="date" aria-label="September 2019 to September 2020">09/2019 – 09/2020</span>
+          </div>
+
+          <p class="summary">
+            Validation & Verification specialist for ECU communication and I/O interfaces using industry-standard tools.
+          </p>
+
+          <div class="logos">
+            <img src="images/logos/McLaren.svg" alt="McLaren" title="McLaren">
+          </div>
+
+          <details class="details">
+            <summary>View responsibilities & achievements</summary>
+            <ul class="two-col">
+              <li><strong>Test Automation:</strong> Develop C#/CAPL test software with comprehensive reporting and analysis</li>
+              <li><strong>Network Analysis:</strong> Real-time CAN/LIN/ETH network simulation and analysis</li>
+              <li><strong>ECU Diagnostics:</strong> Implement DTC, RDI diagnostic services per AUTOSAR standards</li>
+              <li><strong>Hardware Design:</strong> Physically assemble and design ECU testing benches from scratch</li>
+              <li><strong>Data Parsing:</strong> Build ARXML, XML, LDF parsers for configuration management</li>
+              <li><strong>Bug Tracking:</strong> Manage defects using Agile methodology with Jira/Mantis</li>
+            </ul>
+          </details>
+        </article>
+
+        <article class="card experience">
+          <div class="job-head">
+            <div class="role">
+              <h3>Embedded System Developer</h3>
+              <p class="company">Re:lab · Reggio Emilia, Italy</p>
+            </div>
+            <span class="date" aria-label="June 2019 to July 2019">06/2019 – 07/2019</span>
+          </div>
+
+          <p class="summary">
+            Developed automotive CAN interface devices for Ferrari S.p.A. with focus on performance and reliability.
+          </p>
+
+          <div class="logos">
+            <img src="images/logos/ferrari.png" alt="Ferrari" title="Ferrari">
+          </div>
+
+          <details class="details">
+            <summary>View responsibilities & achievements</summary>
+            <ul class="two-col">
+              <li><strong>Embedded Communication:</strong> Implement I2C, RS232, SPI protocols between microcontrollers</li>
+              <li><strong>Motor Control:</strong> Design DC motor actuation systems for automotive applications</li>
+              <li><strong>Hardware Development:</strong> Full hardware design, PCB layout, and assembly</li>
+              <li><strong>ADAS Integration:</strong> Interface with ADAS and Highly Automated Driving systems</li>
+              <li><strong>Languages:</strong> C/C++ for embedded development with performance optimization</li>
+            </ul>
+          </details>
+        </article>
+      </section>
+
+      <section id="internships" class="section" aria-labelledby="internships-title">
+        <div class="section-head">
+          <h2 id="internships-title">Internships</h2>
+          <div class="toolbar no-print">
+            <button type="button" data-toggle-all="#internships .details">Expand all</button>
+            <button type="button" data-collapse-all="#internships .details">Collapse all</button>
+          </div>
+        </div>
+
+        <article class="card internship">
+          <div class="job-head">
+            <div class="role">
+              <h3>Undergraduate Internship</h3>
+              <p class="company">Università degli Studi di MODENA e REGGIO EMILIA - Engineering Department</p>
+            </div>
+            <span class="date" aria-label="2018 to 2019">2018 – 2019</span>
+          </div>
+
+          <p class="meta"><strong>Supervisor:</strong> Dott. Ing. Fabrizio Paltrinieri</p>
+          <p class="project" lang="it">Simulazione del funzionamento del circuito di raffreddamento di un motore endotermico alternativo per vettura di Formula SAE</p>
+
+          <details class="details">
+            <summary>View internship details</summary>
+            <ul class="two-col">
+              <li><strong>Cooling System:</strong> Experimental characterization of Formula SAE car cooling system</li>
+              <li><strong>Thermal Modeling:</strong> Create termo-hydraulic analysis models for engine cooling</li>
+              <li><strong>Model Validation:</strong> Validate simulation models with experimental test data</li>
+              <li><strong>Layout Optimization:</strong> Research and implement improved system component layouts</li>
+              <li><strong>Component Redesign:</strong> Redesign system components to enhance vehicle performance</li>
+              <li><strong>Data Acquisition:</strong> Develop and assemble cooling system test bench acquisition hardware</li>
+            </ul>
+          </details>
+        </article>
+
+        <article class="card internship">
+          <div class="job-head">
+            <div class="role">
+              <h3>Undergraduate Internship</h3>
+              <p class="company">Università degli Studi di MODENA e REGGIO EMILIA - Engineering Department</p>
+            </div>
+            <span class="date" aria-label="2015 to 2016">2015 – 2016</span>
+          </div>
+
+          <p class="meta"><strong>Supervisor:</strong> Dott. Ing. Fabrizio Paltrinieri</p>
+          <p class="project" lang="it">Progettazione e sviluppo di un banco prova per la caratterizzazione sperimentale di cambi robotizzati</p>
+
+          <div class="logos">
+            <img src="images/logos/ferrari.png" alt="Ferrari" title="Ferrari">
+          </div>
+
+          <details class="details">
+            <summary>View internship details</summary>
+            <ul class="two-col">
+              <li><strong>DCT Analysis:</strong> Comprehensive analysis of Dual Clutch Transmission systems</li>
+              <li><strong>Bench Design:</strong> Analyze and design test bench structure for transmission testing</li>
+              <li><strong>Mechanical Chain:</strong> Design kinematic chain for accurate force/torque transmission</li>
+              <li><strong>Flexibility Analysis:</strong> Perform finite element analysis of system flexibility</li>
+              <li><strong>Real-Time Hardware:</strong> Develop and assemble real-time acquisition hardware system</li>
+            </ul>
+          </details>
+        </article>
+      </section>
+
+      <section id="education" class="section" aria-labelledby="education-title">
+        <div class="section-head">
+          <h2 id="education-title">Education</h2>
+        </div>
+
+        <div class="grid-2">
+          <article class="card education">
+            <div class="job-head">
+              <h3 lang="it">Corso di Laurea Magistrale in Ingegneria Meccatronica</h3>
+              <span class="date" aria-label="2016 to 2018">2016 – 2018</span>
+            </div>
+            <p class="company">Università degli Studi di MODENA e REGGIO EMILIA</p>
+            <p>Master's Degree</p>
+          </article>
+
+          <article class="card education">
+            <div class="job-head">
+              <h3 lang="it">Corso di Laurea in Ingegneria Meccatronica</h3>
+              <span class="date" aria-label="2011 to 2015">2011 – 2015</span>
+            </div>
+            <p class="company">Università degli Studi di MODENA e REGGIO EMILIA</p>
+            <p>Bachelor's Degree</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="languages" class="section" aria-labelledby="languages-title">
+        <div class="section-head">
+          <h2 id="languages-title">Languages</h2>
+        </div>
+
+        <ul class="chips">
+          <li>Italian - Native Speaker (Mother Tongue)</li>
+          <li>English - Full Professional Proficiency (Fluent)</li>
+        </ul>
+      </section>
+
+      <section id="skills" class="section" aria-labelledby="skills-title">
+        <div class="section-head">
+          <h2 id="skills-title">Skills Showcase</h2>
+        </div>
+
+        <div class="card skill-card">
+          <h3>Programming Languages</h3>
+          <ul class="chips">
+            <li title="Expert">BASIC</li>
+            <li title="Advanced">C</li>
+            <li title="Expert">C++</li>
+            <li title="Intermediate">C#</li>
+            <li title="Intermediate">PHP</li>
+            <li title="Advanced">Python</li>
+            <li title="Expert">SQL</li>
+          </ul>
+        </div>
+
+        <div class="card skill-card">
+          <h3>Development Tools & IDEs</h3>
+          <ul class="chips">
+            <li title="Expert">Visual Studio</li>
+            <li title="Advanced">Visual Studio Code</li>
+            <li title="Intermediate">MPLab</li>
+            <li title="Expert">Kinetis Design Studio</li>
+            <li title="Intermediate">Vim</li>
+            <li title="Expert">Git (Version Control)</li>
+          </ul>
+        </div>
+
+        <div class="card skill-card">
+          <h3>Software & Platforms</h3>
+          <ul class="chips">
+            <li title="Advanced">MATLAB / Simulink</li>
+            <li title="Intermediate">AMESim</li>
+            <li title="Expert">SolidWorks</li>
+            <li title="Intermediate">Altium Designer</li>
+            <li title="Intermediate">KiCad</li>
+            <li title="Advanced">Arduino</li>
+            <li title="Intermediate">Raspberry Pi</li>
+            <li title="Expert">Linux (Debian, Ubuntu, Arch)</li>
+          </ul>
+        </div>
+
+        <div class="card skill-card">
+          <h3>Testing & Validation Tools</h3>
+          <ul class="chips">
+            <li title="Expert">Vector CANoe</li>
+            <li title="Expert">Vector CANape</li>
+            <li title="Advanced">Vector CANalyzer</li>
+            <li title="Intermediate">vTestStudio</li>
+            <li title="Intermediate">vFlash</li>
+            <li title="Intermediate">MONACO (Softing)</li>
+            <li title="Advanced">dSPACE Control Desk</li>
+            <li title="Intermediate">DOORS (Requirements Mgmt)</li>
+          </ul>
+        </div>
+
+        <div class="card skill-card">
+          <h3>Design & Media</h3>
+          <ul class="chips">
+            <li title="Intermediate">Adobe Photoshop</li>
+            <li title="Intermediate">Adobe Premiere</li>
+            <li title="Expert">Office Suite</li>
+            <li title="Intermediate">LabVIEW</li>
+            <li title="Intermediate">Modelica / OpenModelica</li>
+          </ul>
+        </div>
+
+        <div class="card skill-card">
+          <h3>Core Competencies</h3>
+          <ul class="chips">
+            <li><strong>Microcontroller Programming:</strong> ARM Cortex-M, AVR, PIC</li>
+            <li><strong>Communication Protocols:</strong> CAN, LIN, SPI, I2C, UART, USB 2.0</li>
+            <li><strong>Embedded Systems:</strong> PCB design, power supply, ADC, digital control</li>
+            <li><strong>Signal Processing:</strong> Op-amps, filters, EMI mitigation</li>
+            <li><strong>Agile Methodologies:</strong> Scrum, Kanban, Bug tracking</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="tools" class="section" aria-labelledby="tools-title">
+        <div class="section-head">
+          <h2 id="tools-title">Tools & Technologies</h2>
+        </div>
+
+        <ul class="chips">
+          <li>Vector CANoe</li>
+          <li>Vector CANape</li>
+          <li>Vector CANalyzer</li>
+          <li>Vector vTestStudio</li>
+          <li>Vector vFlash</li>
+          <li>Softing MONACO</li>
+          <li>dSPACE Control Desk</li>
+          <li>dSPACE Configuration Desk</li>
+          <li>DOORS</li>
+          <li>Matlab / Simulink</li>
+          <li>Kinetis Design Studio</li>
+          <li>Visual Studio Code</li>
+          <li>Arduino</li>
+          <li>Git</li>
+          <li>Linux</li>
+          <li>Powershell</li>
+          <li>UDE Debugger</li>
+          <li>Jira</li>
+          <li>Mantis</li>
+          <li>Oscilloscope</li>
+          <li>Spectrum Analyzer</li>
+          <li>Bench Power Supply</li>
+          <li>National Instruments DAQs</li>
+        </ul>
+      </section>
+
+      <section id="other-skills" class="section" aria-labelledby="other-skills-title">
+        <div class="section-head">
+          <h2 id="other-skills-title">Other Skills</h2>
+        </div>
+
+        <div class="card">
+          <details class="details" open>
+            <summary>View all skills & competencies</summary>
+            <ul class="two-col">
+              <li>Microcontroller programming (ARM, AVR, PIC)</li>
+              <li>Knowledge of thermal engines and vehicle components</li>
+              <li>Low-level languages: C/C++ for embedded systems</li>
+              <li>Embedded systems design (components, power, analog/digital)</li>
+              <li>Communication protocols: CAN, RS-232, I2C, SPI, UART, USB 2.0</li>
+              <li>Embedded prototyping: Arduino, Raspberry Pi</li>
+              <li>Signal processing (Op-amps, Class A/AB/B/C/D amps, filters, EMI)</li>
+              <li>High-level languages: Python, C#, VisualBasic, PHP, LabVIEW, Modelica, MATLAB, Simulink</li>
+              <li>IDEs & tools: Visual Studio, Vim, MPLAB, Git</li>
+              <li>Modelling software: AMESim, OpenModelica, LTspice</li>
+              <li>PCB design: Altium Designer, KiCad</li>
+              <li>PCB fabrication and tin soldering</li>
+              <li>Computer-Aided Manufacturing (CAM) and material properties</li>
+              <li>Computer-Aided Drafting: SolidWorks, Fusion360</li>
+              <li>Structural analysis (FEM) and analytical methods</li>
+              <li>Laboratory equipment: oscilloscope, spectrum analyzer, testers, power supplies, NI modules</li>
+              <li>Hydraulic/mechanical test benches (electrical actuation)</li>
+              <li>AUTOSAR standard compliance</li>
+              <li>Agile methodology & bug tracking</li>
+              <li>Linux distributions: Debian, Ubuntu, Arch Linux</li>
+              <li>Ability to work under pressure and high-pressure environments</li>
+              <li>Analytical problem-solving skills</li>
+            </ul>
+          </details>
+        </div>
+      </section>
+
+      <section id="licence" class="section" aria-labelledby="licence-title">
+        <div class="section-head">
+          <h2 id="licence-title">Driving Licence</h2>
+        </div>
+
+        <ul class="chips">
+          <li>Class B (European Union)</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="no-print">
+      <p>CV webpage for Marco Bianchi. <span style="font-family: monospace; background: var(--surface); padding: 2px 6px; border-radius: 4px;">Built with HTML/CSS/JS</span></p>
+      <p style="margin-top: 8px; font-size: .85rem;">Last updated: September 2026</p>
+    </footer>
+  </div>
+
+  <script src="cv.js"></script>
+</body>
+</html>
